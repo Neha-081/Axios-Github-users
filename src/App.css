@@ -2,7 +2,13 @@ body{
     background-color: rgb(197, 194, 195);
 }
 .container{
-    margin-left: 400px;
+    margin-left: 650px;
 }.container input{
     border: 3px solid rgb(77, 73, 73);
+}.head{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(20, 38, 199);
+   font-weight: bold;
+   margin: 20px;
+   margin-left: 100px;
 }
