@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(197, 194, 195);
+}
+.container{
+    margin-left: 400px;
+}.container input{
+    border: 3px solid rgb(77, 73, 73);
+}
