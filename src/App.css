@@ -1,14 +1,30 @@
-body{
+/* body{
     background-color: rgb(197, 194, 195);
 }
 .container{
-    margin-left: 650px;
+    margin-left: 400px;
 }.container input{
     border: 3px solid rgb(77, 73, 73);
-}.head{
+} */
+.head{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    color: rgb(20, 38, 199);
    font-weight: bold;
    margin: 20px;
    margin-left: 100px;
 }
+@media (max-width: 1600px) {
+    .container{
+        margin-left: 400px;
+    }
+  }
+  @media (max-width: 400px) {
+    .container{
+       margin-left: 10px;
+    }.head{
+        
+        font-size: 25px;
+    }.container input{
+        width: 150px;
+    }
+  }
